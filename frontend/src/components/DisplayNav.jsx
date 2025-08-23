@@ -16,7 +16,7 @@ const DisplayNav = () => {
                 <div className='flex items-center gap-4'>
                     <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block'>Explore Premium</p>
                     <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install App</p>
-                    <p className='bg-purple-500 text-black w-7 h-7 rounded-full flex items-center justify-center'>D</p>
+                    <p className='bg-purple-500 text-black w-7 h-7 rounded-full flex items-center justify-center'>V</p>
                 </div>
             </div>
             <div className='flex items-center gap-2 mt-4'>

@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song01 from  './song01.mp3'
+import song02 from  './song02.mp3'
+import love from  './love.mp3'
+import img02 from "./img02.jpeg"
+import img03 from "./img03.jpeg"
 
 export const assets = {
     bell_icon,
@@ -66,7 +71,12 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    img02,
+    song01,
+    song02,
+    love,
+    img03,
 }
 
 export const albumsData = [
@@ -91,13 +101,7 @@ export const albumsData = [
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
     },
-    {   
-        id:3,
-        name: "Trending Global",
-        image: img16,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#44337a"
-    },
+   
     {   
         id:4,
         name: "Mega Hits,",
@@ -116,67 +120,57 @@ export const albumsData = [
 
 export const songsData = [
     {
-        id:0,
+        id: 0,
         name: "Song One",
+        album: "Top 50 Global", 
         image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        file: song1,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "3:00"
     },
     {
-        id:1,
+        id: 1,
         name: "Song Two",
+        album: "Top 50 India",
         image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        file: song2,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:20"
     },
     {
-        id:2,
+        id: 2,
         name: "Song Three",
+        album: "Trending India",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        file: song3,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:32"
     },
     {
-        id:3,
+        id: 3,
         name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        album: "Mega Hits,",
+        image: img02,
+        file: song01,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:50"
     },
     {
-        id:4,
+        id: 4,
         name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        album: "Happy Favorites",
+        image: img03,
+        file: song02,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "3:10"
     },
     {
-        id:5,
+        id: 5,
         name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        album: "Trending Global",
+        image: img14,
+        file: love,
+        desc: "Put a smile on your face with these happy tunes",
+        duration: "2:45"
     },
-    {
-        id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
-    }
-]
+];
